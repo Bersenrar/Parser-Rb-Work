@@ -1,3 +1,5 @@
+Script working example: https://www.youtube.com/watch?v=vLlzC0UmDyU&t=19s
+
 To run this script you must have python3.11+ and put into config your api key from BotFather
 
 Deploying
