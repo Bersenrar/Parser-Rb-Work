@@ -138,7 +138,7 @@ class RabotaUa:
         result = []
         page = 1
         try:
-            while page < 3:
+            while page < 1000:
                 current_url = self.url + f"&page={page}"
                 logger.info(f"Parsing page {page}\nURL: {current_url}")
                 response = RequestsManager.get_html_playwright(current_url, selector_specified="alliance-employer-cvdb-cv-list")
